@@ -1,0 +1,15 @@
+@media screen and (min-width: 320px)  {
+    .vest {
+        max-width: 320px;
+    }
+}
+@media screen and (min-width: 768px)  {
+    .vest {
+        max-width: 768px;
+    }
+}
+@media screen and (min-width: 1440px)  {
+    .vest {
+        max-width: 1440px;
+    }
+}

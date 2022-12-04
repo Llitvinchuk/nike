@@ -1,0 +1,22 @@
+.description__image {
+    margin-right: 20px;
+}
+@media screen and (min-width: 320px) {
+    .description__image {
+        width: 280px;
+
+    }
+    
+}
+@media screen and (min-width: 768px) {
+    .description__image {
+        width: 359px;
+    }
+    
+}
+@media screen and (min-width: 1440px) {
+    .description__image {
+        width: 460px;
+    }
+    
+}
