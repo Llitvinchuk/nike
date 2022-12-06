@@ -1,0 +1,8 @@
+.products__button_right {
+    background: url('../../../../image/arrow-right.png');
+    right: 20px;
+
+}
+.products__button_right:hover {
+    opacity: 0.5;
+}

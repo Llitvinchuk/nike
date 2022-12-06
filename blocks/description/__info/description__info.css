@@ -1,0 +1,19 @@
+.description__info {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+@media screen and (min-width: 320px) {
+    .description__info {
+        padding-bottom: 40px;
+    }
+    
+}
+@media screen and (min-width: 768px) {
+    .description__info {
+        padding-bottom: 80px;
+    }
+    
+}

@@ -1,0 +1,19 @@
+.footer__subscription {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+@media screen and (min-width: 320px) {
+    .footer__subscription {
+        flex-direction: column;
+
+    }
+    
+}
+@media screen and (min-width: 768px) {
+    .footer__subscription {
+        flex-direction: row;
+        
+    }
+    
+}
