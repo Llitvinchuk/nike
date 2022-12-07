@@ -28,9 +28,7 @@
 @media screen and (min-width: 1440px) {
     .products__scroll {
     background: url('../../../image/scroll.png');
-
     margin-top: 40px;
-
     max-width: 1400px;
     }
     
