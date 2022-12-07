@@ -12,12 +12,14 @@
 @import url('../blocks/depiction/__text/depiction__text.css');
 @import url('../blocks/depiction/__title/depiction__title.css');
 @import url('../blocks/main/main.css');
+
 @import url('../blocks/products/__button/_left/products__button_left.css');
 @import url('../blocks/products/__button/_right/products__button_right.css');
 @import url('../blocks/products/__card/_button/products__card_button.css');
 @import url('../blocks/products/__card/products__card.css');
 @import url('../blocks/products/__gallery/products__gallery.css');
 @import url('../blocks/products/__slider/products__slider.css');
+
 @import url('../blocks/products/__title/products__title.css');
 @import url('../blocks/products/__button/products__button.css');
 @import url('../blocks/products/products.css');
@@ -35,6 +37,8 @@
 @import url('../blocks/popup/__button/popup__button.css');
 @import url('../blocks/popup/__menu/popup__menu.css');
 @import url('../blocks/popup/popup.css');
+
 @import url('../blocks/people/people.css');
 @import url('../blocks/vest/vest.css');
 @import url('../blocks/popup/_opened/popup_opened.css');
+

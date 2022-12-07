@@ -21,6 +21,7 @@
 }
 @media screen and (min-width: 1440px) {
     .popup__menu {
+
         padding-top: 265px;
         padding-bottom: 265px;
     }

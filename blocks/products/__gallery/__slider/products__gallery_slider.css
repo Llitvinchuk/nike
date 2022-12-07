@@ -1,0 +1,7 @@
+.products__gallery_slider {
+    display: flex;
+    flex-direction: row;
+align-items: flex-start;
+margin-top: 40px;
+overflow:auto;
+}
