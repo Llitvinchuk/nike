@@ -1,0 +1,7 @@
+.products__button_left {
+    background: url('../../../../image/arrow-left.png');
+    margin-left: 20px;
+}
+.products__button_left:hover {
+    opacity: 0.5;
+}

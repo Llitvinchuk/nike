@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>NIKE X MMW TRAINING 4.0</title>
+
     <link rel="stylesheet" href="./pages/index.css" />
   </head>
   <body class="body">
@@ -23,7 +24,9 @@
                 <img src="./image/description.png" class="description__image" alt="картинка">
             </div>
         </section>
-        <img src="./image/people.png" class="section__image" alt="люди">
+
+        <img src="./image/people.png" class="people" alt="люди">
+
         <section class="depiction">
             <h2 class="depiction__title">Тренинг — это не просто 
                 физическая активность</h2>
@@ -32,28 +35,30 @@
         <section class="products" id="products">
             <h2 class="products__title">Товары</h2>
             <div class="products__gallery">
-                <button class="products__button_left" type="button"></button>
-                <button class="products__button_right" type="button"></button>
-                <div class="products__gallery_slider">
+
+                <button class="products__button products__button_left" type="button"></button>
+                <button class="products__button products__button_right" type="button"></button>
+                <div class="products__slider" id="scroll">
                     
                     <div class="products__card">
-                        <button class="products__card_button" type="button"></button>
+                        <button class="products__card_button" type="button">купить</button>
                         <img src="./image/nikelab.png" class="products__card_img" alt="куртка">
                     </div>
                     <div class="products__card">
-                        <button class="products__card_button" type="button"></button>
+                        <button class="products__card_button" type="button">купить</button>
                         <img src="./image/nikelab1.png" class="products__card_img" alt="куртка">
                     </div>
                     <div class="products__card">
-                        <button class="products__card_button" type="button"></button>
+                        <button class="products__card_button" type="button">купить</button>
                         <img src="./image/nikelab2.png" class="products__card_img" alt="спорт">
                     </div>
                     <div class="products__card">
-                        <button class="products__card_button" type="button"></button>
+                        <button class="products__card_button" type="button">купить</button>
                         <img src="./image/nikelab4.png" class="products__card_img" alt="жилет">
                     </div>
                     <div class="products__card">
-                        <button class="products__card_button" type="button"></button>
+                        <button class="products__card_button" type="button">купить</button>
+
                         <img src="./image/nikelab5.png" class="products__card_img" alt="куртка">
                     </div>
                     
@@ -69,10 +74,12 @@
       <footer class="footer" id="footer">
         <h2 class="footer__title">Подписаться</h2>
         <p class="footer__text">Укажите свой email чтобы быть в курсе даты релиза, и других новостей о коллекции</p>
-        <div class="footer__subscription">
+
+        <form class="footer__subscription" name = "subscribeForm">
             <input class="footer__input" type="email" placeholder="Введите email">
-            <button class="footer__button" type="button"></button>
-        </div>
+            <button class="footer__button" type="submit">Подписаться</button>
+        </form>
+
         <p class="footer__info">© Nike, Inc., 2021. Какие-то права защищены.</p>
       </footer>
       <div class="popup">
@@ -84,6 +91,8 @@
         </nav>
       </div>
     </div>
-</body>
-<script src="./index.js"></script>
+
+  </body>
+ <script src="./scripts/index.js"></script>
+
 </html>

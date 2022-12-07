@@ -1,12 +1,19 @@
 .header__title {
     font-family: 'Golos';
     margin: 0;
+
+    font-weight: 500;
+    margin-left: 20px;
+
 }
 @media screen and (min-width: 320px) {
     .header__title {
         max-width: 280px;
         padding-top: 46px;
         font-size: 32px;
+
+        line-height: 40px;
+
     }
     
 }
@@ -16,6 +23,9 @@
         padding-top: 92px;
         font-size: 64px;
         margin-left: 20px;
+
+        line-height: 80px;
+
     }
     
 }
